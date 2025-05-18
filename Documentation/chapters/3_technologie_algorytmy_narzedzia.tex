@@ -1,13 +1,12 @@
 \chapter{Technologie, algorytmy i narzędzia (Piotr Chojnowski)}
 \label{chap:algs}
 
-\section{Technologie}
-Aplikacja została stworzona na system CAVE. System ten na postać pokoju w którym ściany zastąpione są ekranami do projekcji stereoskopowej. Został on wynaleziony przez Carolinę Cruz-Neira, Daniela J. Sandin i Thomasa A. DeFanti w Uniwersytecie Illinois w Chicago w 1992. Użytkownik jaskini wchodzi do niej w okularach 3D zaopatrzonych w trackery które sprawdzają położenie jego linii wzroku, dzięki czemu obraz może być odpowiednio dopasowany aby stworzyć iluzję głębi obrazu. CAVE w LZWP jest dodatkowo wyposarzony w kontrolery ART Flystick pozwalające na interakcję z wirtualnym środowiskiem.
+Dzięki dużej popularności urządzeń VR powstało również wiele różnych narzędzi wytwarzania takich aplikacji. W tym rozdziale zostały omówione najbardziej popularne z nich, oraz które z nich wybraliśmy.
 
+\section{Unreal Engine}
+Dwa najbardziej znane i używane środowiska w wytwarzaniu aplikacji VR to aktualnie Unreal Engine oraz Unity, więc postanowiliśmy wybrać jeden z nich jako nasze środowisko. Jako że system CAVE który jest docelową platformą omawianej aplikacji działa na klastrze, zdecydowaliśmy się ostatecznie na użycie Unreal Engine 5. Doszliśmy do tego wniosku ponieważ dla środowiska UE5 została stworzona wtyczka nDisplay, która pozwala na automatyczną obsługę takiego klastra. Unreal Engine jest silnikiem stworzonym przez przedsiębiorstwo Epic Games przeznaczonym głównie do tworzenia gier 3D.
 
-\section{Narzędzia}
-Do produkcji użyliśmy silnika Unreal Engine 5.5 stworzonego przez przedsiębiorstwo Epic Games. Jest to silnik przeznaczony głównie do tworzenia gier 3D. Wybraliśmy go ponieważ zostały stworzone do niego biblioteki pozwalające na proste przenoszenie aplikacji ze środowiska desktopowego na środowisko CAVE.
+\section{ART Flystick}
 
-Użyliśmy 2 bibliotek: nDisplay pozwalającej aplikacji na wyświetlaniu obrazu na klastrze systemu CAVE oraz Dtrack pozwalający na obsługę kontrolerów ART Flystick.
 
 \section{Algorytmy}
