@@ -1,31 +1,31 @@
 \chapter{Wstęp i cel pracy (Kamil Danecki)}
 \label{chap:introduction}
 
-Obecnie technologie wytwarzania aplikacji VR (wirtualnej rzeczywistości) rozwijają się w bardzo szybkim tempie. 
+Obecnie technologie wytwarzania aplikacji VR rozwijają się w bardzo szybkim tempie. 
 Z jednej strony powstają nowe urządzenia pozwalające na jeszcze większą immersję gracza w świat wirtualny, a z drugiej coraz więcej programów umożliwia wykorzystywanie tych urządzeń do produkcji aplikacji końcowych.
 Jedną z najbardziej imponujących technologii jest CAVE, czyli sześcienna jaskinia rzeczywistości wirtualnej. 
-Jest to pomieszczenie, którego ściany są ekranami do projekcji stereoskopowej. 
-Jedna z takich jaskiń znajduje się w LZWP (Laboratorium Zanurzonej Wizualizacji Przestrzennej) na wydziale Elektroniki, Telekomunikacji i Informatyki Politechniki Gdańskiej.
+Jest to pomieszczenie, którego ściany są ekranami do projekcji stereoskopowej. \cite{cave_wiki} 
+Jedna z takich jaskiń znajduje się w LZWP na wydziale Elektroniki, Telekomunikacji i Informatyki Politechniki Gdańskiej.
 
-Celem niniejszej pracy inżynierskiej jest wytworzenie aplikacji na CAVE znajdujący się w LZWP na Politechnice Gdańskiej, służąca jako pomoc naukowa dla uczniów szkół średnich, pozwalająca na naukę fizyki przez grę. 
+Celem niniejszej pracy inżynierskiej jest wytworzenie aplikacji na CAVE znajdującym się w LZWP na Politechnice Gdańskiej, służącej jako pomoc naukowa dla uczniów szkół średnich, pozwalającej na naukę fizyki przez grę. 
 Gatunkiem gry jest escape room, jest to rodzaj gry grupowej, której celem jest rozwiązanie szeregu zagadek.
-Ten format gry wykorzystuje przewagę CAVE nad innymi technologiami VR, który pozwala brać udział w doświadczeniu immersji świata wirtualnego wielu osobom jednocześnie. 
+Ten format gry wykorzystuje przewagę CAVE nad innymi technologiami VR, które pozwalają brać udział w doświadczeniu immersji świata wirtualnego wielu osobom jednocześnie. 
 Nie jest to pierwsza implementacja tego typu gry na CAVE, jednak wszystkie poprzednie miały problemy, które w tej pracy postanowiliśmy rozwiązać. 
 Problemy te zostały dokładniej opisane w rozdziale drugim.
 
-Oprócz znalezienia rozwiązań dla problemów napotkanych w innych grach tego typu, czymś zupełnie nowym jest tematyka gry - fizyka. Jest to przedmiot, który ze względu na dużą ilość eksperymentów jakie się podczas jego realizacji przeprowadza, bardzo dobrze się nadaje do wizualizacji w CAVEie.
+Oprócz znalezienia rozwiązań dla problemów napotkanych w innych grach tego typu, czymś zupełnie nowym jest tematyka gry - fizyka. Jest to przedmiot, który ze względu na dużą ilość eksperymentów, jakie się podczas jego realizacji przeprowadza, bardzo dobrze się nadaje do wizualizacji w CAVE'ie.
 Gra składa się z 11 poziomów, a w każdym z nich jest zagadka z innego działu fizyki - mechaniki, mechaniki bryły sztywnej, grawitacji i elementów astronomii, drgań, termodynamiki, elektrostatyki, prądu elektrycznego, magnetyzmu, fal i optyki, fizyki atomowej, elementów fizyki relatywistycznej i fizyki jądrowej. 
 Istotnym aspektem pracy nad aplikacją było opracowanie fabuły gry, która pozwoliłaby uczniom w pełni zanurzyć się w wirtualnym świecie, zamiast postrzegać ją jedynie jako zestaw zadań z fizyki.
 Zdecydowaliśmy się na styl fantastycznego średniowiecza, w którym gracze muszą pomóc królestwu ludzi obronić się przed atakiem smoka władającego krainą orków.
-Jednocześnie wyjątkową dbałość przykładaliśmy do tego aby zachować wszystkie walory edukacyjne.
+Jednocześnie wyjątkową dbałość przykładaliśmy do tego, aby zachować wszystkie walory edukacyjne.
 
 Jako silnik gry wykorzystaliśmy UE (Unreal Engine) firmy Epic Games, Inc. 
 Jest to narzędzie umożliwiające tworzenie gier o bardzo realistycznym wyglądzie.
 Ta możliwość jest bardzo istotna przy tworzeniu gier aplikacji VR, ponieważ gracze będą widzieli obiekty w znacznie większej skali niż to ma miejsce w standardowych aplikacjach.
-W najnowszych wersjach, UE5.x, wtyczki umożliwiające uruchamianie gier na CAVEie działają dużo lepiej, co pozwala nam na większy niż kiedykolwiek poziom zaawansowania naszej aplikacji.
+W najnowszych wersjach, UE5.x, wtyczki umożliwiające uruchamianie gier na CAVE'ie działają dużo lepiej, co pozwala nam na większy niż kiedykolwiek poziom zaawansowania naszej aplikacji.
 
-Rozdział drugi wprowadza do dziedziny wytwarzania aplikacji rzeczywistości wirtualnej. Przedstawia wybrane przykłady aplikacji już wytworzonych na CAVE i pokazuje w jaki sposób nasza aplikacja rozwiązuje problemy widoczne w innych aplikacjach.
+Rozdział drugi wprowadza do dziedziny wytwarzania aplikacji rzeczywistości wirtualnej. Przedstawia wybrane przykłady aplikacji już wytworzonych na CAVE i pokazuje,, w jaki sposób nasza aplikacja rozwiązuje problemy widoczne w innych aplikacjach.
 W rozdziale trzecim zostały opisane technologie, narzędzia i algorytmy wykorzystane przy realizacji FER.
-Rozdział czwarty opisuje projekt systemu. Znajdują się w nim opisy struktury całej aplikacji jak i szczegółowe opisy każdej z zagadek.
+Rozdział czwarty opisuje projekt systemu. Znajdują się w nim opisy struktury całej aplikacji, jak i szczegółowe opisy każdej z zagadek.
 Rozdział piąty przedstawia badania pilotażowe oraz ich wyniki.
 
